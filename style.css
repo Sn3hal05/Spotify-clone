@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar{
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    
+}
+
+.sidebar-nav{
+    background: #111111;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    
+}
+.sidebar-nav .logo{
+    width: 120px;
+}
+
+.sidebar-nav .logo img{
+    width: 100%;
+
+}
+.sidebar-nav ul{
+    list-style: none;
+}
+
+.sidebar-nav ul li{
+    padding: 10px 20px;
+    
+}
+
+.sidebar-nav ul li a{ 
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+
+.sidebar-nav ul li a i{ 
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+
+.library::after{
+    content: "+";
+    float: right;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.create-playlist{
+    background:#302f2f;
+    padding: 30px 15px ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.sidebar-scroll{
+    height: 200px;
+    overflow: auto;
+}
+.sidebar-scroll::-webkit-scrollbar{
+    background:transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb{
+    background:transparent;
+    width: 10px;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar-thumb{
+    background:#ccc;
+    width: 5px;
+}
+
+.create-playlist h4{
+    color: white;
+    font-size: 15px;
+}
+
+
+.create-playlist p{
+    color: white;
+    font-size: 12px;
+    margin: 12px 0;
+}
+
+
+.create-playlist button{
+    padding: 12px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    font-weight: 600;
+    margin:10px 0;
+}
+
+.privacy ul li a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 5px;
+    line-height: 30px;
+    
+}
+.privacy ul li a:hover{
+    text-decoration: underline;
+}
+
+.privacy ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.privacy ul li{
+    padding: 0;
+    padding-bottom: 8px;
+    margin-left: 20px;    
+}
+.lang{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background:transparent;
+    color: #fff;
+    margin-left: 20px;
+    margin: 30px;
+    cursor: pointer;
+}
+.lang i{
+    padding: 10px;
+}
